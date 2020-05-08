@@ -1,0 +1,132 @@
+/* цвет основного текста #757575 */
+/* вторичный цвет текста #212121 */
+/* белый цвет #FFFFFF */
+/* акцент #2196F3 */
+/* цвет контактов в футере rgba(255, 255, 255, 0.6); */
+/* цвет иконок #AFB1B8 */
+/* цвет нижней строки о разработчиках rgba(255, 255, 255, 0.4) */
+
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --primary-white-color: #ffffff;
+  --accent-color: #2196f3;
+  --contacts-footer-color: rgba(255, 255, 255, 0.6);
+  --icons-color: #afb1b8;
+}
+
+body {
+  color: var(--primary-text-color);
+  background-color: grey;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Site nav*/
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/*Contacts nav*/
+
+.contacts-nav .link {
+  color: var(--title-text-color);
+}
+
+.contacts-nav .link:hover,
+.contacts-nav .link:focus {
+  color: var(--accent-color);
+}
+
+/*Hero*/
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+/*Section*/
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+/*Advantage*/
+
+.section .icons {
+  color: var(--title-text-color);
+}
+
+.section .icons:hover,
+.section .icons:focus {
+  color: var(--primary-white-color);
+}
+
+/*Our work*/
+
+.section-subtitle {
+  color: var(--primary-white-color);
+}
+
+/*Our team*/
+
+.section .social-networking {
+  color: var(--icons-color);
+}
+
+.section .social-networking:hover,
+.section .social-networking:focus {
+  color: var(--primary-white-color);
+}
+
+/*Regulars*/
+
+.section-regulars {
+  color: var(--icons-color);
+}
+
+.section-regulars:hover,
+.section-regulars:focus {
+  color: var(--accent-color);
+}
+
+/*Button*/
+
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+}
+
+/*Footer*/
+
+.address {
+  color: var(--primary-white-color);
+}
+
+.contacts-footer .contacts {
+  color: var(--contacts-footer-color);
+}
+
+.section .our-socials {
+  color: var(--primary-white-color);
+}
+.section .socials-link {
+  color: var(--primary-white-color);
+}
+
+.section .socials-link:hover,
+.section .socials-link:focus {
+  color: var(--accent-color);
+}
+
+.developed {
+  color: rgba(255, 255, 255, 0.4);
+}
