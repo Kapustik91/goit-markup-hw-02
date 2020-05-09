@@ -40,7 +40,7 @@ ul {
 /*Contacts nav*/
 
 .contacts-nav .link {
-  color: var(--title-text-color);
+  color: var(--primary-text-color);
 }
 
 .contacts-nav .link:hover,
@@ -129,4 +129,15 @@ ul {
 
 .developed {
   color: rgba(255, 255, 255, 0.4);
+}
+
+/*Portfolio*/
+
+.section .list {
+  color: var(--title-text-color);
+}
+
+.section .list:hover,
+.section .list:focus {
+  color: var(--primary-white-color);
 }
